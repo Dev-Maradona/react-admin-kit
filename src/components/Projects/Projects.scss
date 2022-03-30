@@ -1,0 +1,22 @@
+// @use '../../sass/' as *;
+
+.Projects
+{
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 4px 6px 16px #eee;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+
+    .Paragraph
+    {
+        color: #777;
+        font-size: 14px;
+
+        span
+        {
+            font-weight: bold;
+        }
+    }
+}

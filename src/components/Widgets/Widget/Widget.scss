@@ -1,0 +1,69 @@
+// @use '../../../sass/' as *;
+
+.Widgets
+{
+    margin: 40px 0;
+
+    .Card
+    {
+        box-shadow: 4px 6px 12px #eee;
+        background-color: #fff;
+        padding: 1rem;
+        border-radius: 10px;
+        border: 1px solid #eee;
+
+        .iconProvider
+        {
+            position: absolute;
+            left: 0;
+            bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 4px 6px 16px #ddd;
+            border: 1px solid #eee;
+            width: 60px;
+            height: 60px;
+            line-height: 60px;
+            text-align: center;
+            color: white;
+
+            .Icon
+            {
+                font-size: 24px;
+            }
+        }
+        
+        .desc
+        {
+            text-align: right;
+
+            .descParagraph
+            {
+                margin: 5px 0;
+                color: #777;
+            }
+
+            .descHeader
+            {
+                font-weight: bold;
+                color: #111;
+            }
+        }
+
+        .Horizontal
+        {
+            border-top: 1px solid #eee;
+            margin: 10px 0;
+        }
+
+        .Revenue
+        {
+            margin-top: 20px;
+            color: #777;
+            span
+            {
+                color: green;
+                font-weight: bold;
+            }
+        }
+    }
+}

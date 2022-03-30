@@ -1,0 +1,53 @@
+// @use '../../sass/' as *;
+
+.Navbar
+{
+    height: 60px;
+    line-height: 60px;
+    box-shadow: 4px 6px 16px #eee;
+
+
+    .Collapse
+    {
+        .Icon
+        {
+            font-size: 24px;
+            cursor: pointer;
+        }
+    }
+
+    .Search
+    {
+
+        position: relative;
+
+        input
+        {
+            padding: 0.5rem 1rem;
+            border: 1px solid #ddd;
+            outline: none;
+            color: #777;
+            border-radius: 20px;
+        }
+
+        .Icon
+        {
+            position: absolute;
+            top: 22px;
+            right: 10px;
+            color: #777;
+        }
+    }
+
+    .Notifications
+    {
+        .Badge
+        {
+            .Icon
+            {
+                font-size: 24px;
+                cursor: pointer;
+            }
+        }
+    }
+}
