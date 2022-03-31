@@ -47,6 +47,11 @@
     color: $redColor;
 }
 
+.text-gray
+{
+    color: gray;
+}
+
 /* Display Properties
 #################*/
 
@@ -158,4 +163,22 @@
 .fixed
 {
     position: fixed;
+}
+
+/* Text Align Properties
+#################*/
+
+.text-center
+{
+    text-align: center;
+}
+
+.text-right
+{
+    text-align: right;
+}
+
+.text-left
+{
+    text-align: left;
 }

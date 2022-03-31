@@ -1,11 +1,8 @@
-// @use '../../sass/' as *;
-
 .Navbar
 {
     height: 60px;
     line-height: 60px;
     box-shadow: 4px 6px 16px #eee;
-
 
     .Collapse
     {
@@ -48,6 +45,77 @@
                 font-size: 24px;
                 cursor: pointer;
             }
+        }
+    }
+}
+
+.Sidebar
+{
+    text-align: center;
+
+    .logoIcon
+    {
+        font-size: 24px;
+        margin: 0 0.5rem;
+        align-items: center;
+        color: #3993ee;
+    }
+
+    .Horizontal
+    {
+        border-top: 1px solid #eee;
+        margin: 2rem 0;
+    }
+
+    .List
+    {
+        margin: 1rem 0;
+
+        .Item
+        {
+            display: flex;
+            align-items: center;
+            padding: 10px 0;
+            box-shadow: 4px 6px 16px #ddd;
+            border-radius: 10px;
+            width: 80%;
+            margin: 1rem auto;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+            border: 1px solid #ccc;
+
+            &:hover,
+            &.active
+            {
+                background-color: #3993ee;
+                color: white;
+            }
+
+            .Icon
+            {
+                margin: 0 0.5rem;
+                font-size: 20px;
+            }
+        }
+    }
+
+    .upgrade-button
+    {
+        border: 1px solid #eee;
+        border: 1px solid #3993ee;
+        color: #3993ee;
+        background-color: #fff;
+        width: 60%;
+        margin: 20px auto;
+        padding: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+
+        &:hover
+        {
+            background-color: #3993ee;
+            color: #fff;
         }
     }
 }
